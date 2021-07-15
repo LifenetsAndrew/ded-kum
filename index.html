@@ -1,0 +1,56 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="ded-paint">
+        <div class="window">
+            <div class="window-header">
+                <div class="title">
+                    <div id="title-text">
+                        <img src="ded-small.png"></img>
+                        Ded 29 (4K).png
+                    </div>
+                    <div id="window-control-buttons">
+                        <button disabled="true">⎽</button>
+                        <button disabled="true">❒</button>
+                        <button>𝗫</button>
+                    </div>
+                </div>
+                <div class="menu-container">
+                    <button onclick="selectDed('ded1.png')">
+                        <img width="24px" height="24px" src="ded1.png">
+                    </button>
+                    <button onclick="selectDed('ded2.png')">
+                        <img width="24px" height="24px" src="ded2.png">
+                    </button>
+                    <button onclick="selectDed('ded3.png')">
+                        <img width="24px" height="24px" src="ded3.png">
+                    </button>
+                    <button onclick="selectDed('ded4.png')">
+                        <img width="24px" height="24px" src="ded4.png">
+                    </button>
+                    <button onclick="selectDed('ded5.png')">
+                        <img width="24px" height="24px" src="ded5.png">
+                    </button>
+                    <button onclick="selectDed('ded6.png')">
+                        <img width="24px" height="24px" src="ded6.png">
+                    </button>
+                </div>
+            </div>
+            <div class="workspace">
+                <div class="draw-area">
+                    <canvas style="width: 100%; height: 100%;" width="3840" height="2160" id="ded-canvas"></canvas>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+<footer>
+    <script src="index.js"></script>
+</footer>
+
+</html>
